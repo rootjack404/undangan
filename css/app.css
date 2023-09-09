@@ -34,6 +34,21 @@ body::-webkit-scrollbar {
     width: 100%;
 }
 
+.cropper-home {
+    width: 18rem;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0%;
+}
+
+.cropper-home>img {
+    display: inline;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+}
+
 .btn-music {
     position: fixed;
     bottom: 9vh;
